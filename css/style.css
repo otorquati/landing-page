@@ -225,3 +225,79 @@ footer {
 .erro__nome, .erro__email {
     line-height: 30px;
 }
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .section__content {
+        width: 100vw;
+        padding-inline: 20px;
+    }
+    form {
+        width:100%;
+    }
+    footer {
+        width: 100%;
+        font-size: 16px;
+        text-align:center;
+        padding-inline: 20px;
+    }
+    .modal__content {
+        width: 90%
+    }
+    .btn__fechar {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header__logo {
+        font-size: 30px;
+    }
+    .section__content {
+        width: 100vw;
+        padding-inline: 20px;
+    }
+    form {
+        width:100%;
+    }
+    footer {
+        width: 100%;
+        font-size: 12px;
+    }
+    .modal__content {
+        width: 100%;
+        heigth: 100%;
+    }
+    .modal__content p {
+        font-size:18px;
+    } 
+}
+
+@media (max-width: 320px) {
+    .texto {
+        display: none;
+    }
+
+    .btn__comprar {
+        width: 160px;
+    }
+    .section__content h2 {
+        font-size: 20px;
+    }
+    .section__content h3 {
+        display: none;
+    }
+    .section__content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .modal__content p {
+        font-size: 16px;
+    } 
+}
